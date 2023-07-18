@@ -1,6 +1,6 @@
 /* fonts from google fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 /* common styles */
 
@@ -14,6 +14,26 @@
 
 .text-color{
     color: #534C64;
+}
+
+/* primary button */
+
+.btn-primary{
+    display: inline-flex;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-primary-go-rouge{
+    width: 187px;
+    background: #4EC5F7;
+    margin-left: 20px;
 }
 
 /* header styles */
@@ -67,4 +87,68 @@
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     border: none;
+}
+
+/* banner styles */
+
+.banner-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+    width: 40%;
+    height: 700px;
+    display: flex;
+    padding-left: 184px;
+    align-items: center;
+}
+
+.background-image{
+    width: 80%;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+}
+
+.banner-content button{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.banner-content .banner-description{
+    margin-top: 24px;
+}
+
+.banner-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.goat{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner-description{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.banner-img{
+    width: 60%;
+}
+
+.banner-img img {
+    width: 80%;
+    height: 685px;
 }

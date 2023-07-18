@@ -8,4 +8,9 @@
     .nav-bar{
         flex-direction: column;
     }
+    .banner-container{
+        flex-direction: column-reverse;
+        margin-top: 78px;
+        width: 50%;
+    }
 }
