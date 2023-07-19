@@ -44,6 +44,40 @@
     .banner-content button{
         margin-left: 5px;
     }
+
+    .online-games-card{
+        grid-template-columns: 1fr;
+    }
+    .online-games-card-2, .online-games-card-3, .online-games-card-4{
+        margin-left: 28px; 
+    }
+    .online-games-card-3{
+        text-align: center;
+    }
+
+    .online-games-title{
+        font-size: 28px;
+    }
+
+    .play-instantly-content{
+        height: 0vh;
+        margin-top: 350px;
+        margin-left: -170px;
+    }
+    .play-instantly-images > img{
+        width: 80%;
+        position: absolute;
+        right: 28px;
+        top: 700px;
+    }
+    
+    .play-instantly-images div img{
+        width: 40%;
+        position: absolute;
+        bottom: -730px;
+        right: 245px;
+        
+    }
 }
 
 /* Medium Devices */
@@ -68,5 +102,33 @@
     }
     .banner-content{
         width: 100%;
+    }
+
+    .online-games-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .online-games-card-1{
+        margin-left: 20px;
+    }
+   
+    .online-games-card-3{
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .play-instantly-images > img{
+        width: 450px;
+        position: absolute;
+        right: 150px;
+        top: 660px;
+    }
+    
+    .play-instantly-images div img{
+        width: 250px;
+        position: absolute;
+        bottom: -570px;
+        right: 450px;
+        
     }
 }
