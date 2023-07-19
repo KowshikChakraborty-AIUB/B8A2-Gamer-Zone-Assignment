@@ -84,6 +84,20 @@
         margin-top: 800px;
         gap: 2px;
     }
+
+    .footer-bar{
+        grid-template-columns: repeat(3, 0.3fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 0.3fr);
+    }
+
+    .terms-privacy{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* Medium Devices */
@@ -141,5 +155,10 @@
         grid-template-columns: repeat(3, 1fr);
         margin-top: 700px;
         gap: 20px;
+    }
+    .footer-bar{
+        grid-template-columns: repeat(3, 0.16fr);
+        justify-content: center;
+        align-items: center;
     }
 }
