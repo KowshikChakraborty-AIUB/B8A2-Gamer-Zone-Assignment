@@ -78,6 +78,12 @@
         right: 245px;
         
     }
+
+    .games-category-container{
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 800px;
+        gap: 2px;
+    }
 }
 
 /* Medium Devices */
@@ -130,5 +136,10 @@
         bottom: -570px;
         right: 450px;
         
+    }
+    .games-category-container{
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 700px;
+        gap: 20px;
     }
 }
